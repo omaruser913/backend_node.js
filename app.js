@@ -1,11 +1,13 @@
 'use strict'
 
 const express = require('express');
+//rutas
 const bodyParser = require('body-parser');
+
 const app = express();
 
 //archivo de rutas
-var carrera_routes = require('./routes/almacen');
+var carrera_routes = require('./routes/registro');
 
 //middleware para body de peticiones
 app.use(bodyParser.urlencoded({extended: false}));

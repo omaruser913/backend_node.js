@@ -1,17 +1,20 @@
 {
-  "name": "api",
+  "name": "back",
   "version": "1.0.0",
-  "description": "api mysql",
+  "description": "back mysql",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
-  "author": "Juan Teran",
+  "author": "Omar",
   "license": "ISC",
   "dependencies": {
+    "body": "^5.1.0",
     "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "parser": "^0.1.4"
   }
 }
